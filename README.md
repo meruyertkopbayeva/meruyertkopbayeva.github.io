@@ -1,0 +1,1 @@
+# meruyertkopbayeva.github.io
