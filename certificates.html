@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Certificates</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="cert.js"></script>
+</head>
+<body>
+<div class="backround"></div>
+<div class="backround2"></div>
+<header class="sb-color pb-background">Meruert Kopbayeva</header>
+<nav class="sb-background pb-color main-nav">
+  <div class="right">
+    <div class="logo">Logo</div>
+    <div id="hamburger-btn" class="hamburger">
+      <input type="checkbox" hidden id="hamburger-input1">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+  </div>
+  <input type="checkbox" hidden id="hamburger-input2">
+  <div class="nav-links">
+    <li><a class="nav-link" href="index.html">Home</a></li>
+    <li><a class="nav-link" href="edu-work.html#education">Education</a></li>
+    <li><a class="nav-link" href="edu-work.html#expirience">Work expirience</a></li>
+    <li><a class="nav-link" href="certificates.html">Certificates</a></li>
+  </div>
+</nav>
+<div style="display:flex;flex-direction: column;gap: 20px;margin-top: 20px;">
+  <div class="selected-certs item"></div>
+  <div class="certificates-item item">
+    <div id="left-click">
+      <img src="images/arrow.png" style="width: 100%;rotate: 180deg" alt="">
+    </div>
+    <div class="flex-container"></div>
+    <div id="right-click">
+      <img src="images/arrow.png" style="width: 100%;" alt="">
+    </div>
+  </div>
+  <hr style="width: 80%;height: 10px;background: #2E5041;position: relative; margin: 0 auto">
+  <div class="certificates-all iteem"></div>
+</div>
+</body>
+</html>
