@@ -8,7 +8,6 @@ body {
 
 .backround {
     background: linear-gradient(to right, #EFEAE2 0%, #2E5041 100%);
-    /*background: linear-gradient(to right, #ffffff 0%, #737373 100%);*/
     padding: 0;
     margin: 0;
     position: fixed;
@@ -23,7 +22,6 @@ body {
 }
 
 .backround2 {
-    /*background: linear-gradient(to left, #ffffff 0%, #737373 100%);*/
     background: linear-gradient(to left, #EFEAE2 0%, #2E5041 100%);
     padding: 0;
     margin: 0;
@@ -51,30 +49,6 @@ body {
     0% {
         width: 0%;
     }
-    /*20% {*/
-    /*    width: 20%;*/
-    /*}*/
-    /*30% {*/
-    /*    width: 30%;*/
-    /*}*/
-    /*40% {*/
-    /*    width: 40%;*/
-    /*}*/
-    /*50% {*/
-    /*    width: 50%;*/
-    /*}*/
-    /*60% {*/
-    /*    width: 60%;*/
-    /*}*/
-    /*70% {*/
-    /*    width: 70%;*/
-    /*}*/
-    /*80% {*/
-    /*    width: 80%;*/
-    /*}*/
-    /*90% {*/
-    /*    width: 90%;*/
-    /*}*/
     100% {
         width: 100%;
     }
@@ -120,10 +94,6 @@ header {
     padding: 0 20px 0 20px;
 }
 
-
-/*ahii*/
-
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -152,6 +122,8 @@ nav {
 }
 
 .nav-links li {
+    text-align: center;
+    flex-grow: 1;
     list-style: none;
 }
 
@@ -161,6 +133,10 @@ nav {
     padding: 10px;
     font-size: 1.5em;
     font-size-adjust: inherit;
+}
+
+.nav-links li:hover {
+    background: #EFEAE299;
 }
 
 .hamburger {
@@ -207,7 +183,6 @@ nav {
 }
 
 .about span[data='info'] {
-    /*box-shadow: #2E5041 0px 0px 10px 5px;*/
     color: #2E5041;
     font-size: 1.2em;
 }
@@ -282,10 +257,6 @@ nav {
     font-size: 3em;
 }
 
-
-/*edu-exp*/
-
-
 .edu-ex {
     display: grid;
     grid-template-columns: 1fr;
@@ -324,12 +295,10 @@ nav {
 }
 
 .achievements-item-list li {
-    background: #C0C0C0;
     border-radius: 5px;
     width: fit-content
 }
 
-/*certificates*/
 .certificates-item {
     background: none!important;
     display: flex;
@@ -496,7 +465,6 @@ footer {
         transform: rotate(-45deg) translate(11px, -11px);
     }
 
-    /*contacts info*/
     .contacts {
         display: flex;
         flex-direction: column;
